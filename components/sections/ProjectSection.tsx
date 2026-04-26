@@ -160,7 +160,7 @@ const ProjectSection = () => {
                 <MorphingDialogContainer>
                   <MorphingDialogContent className="relative border rounded-[22px] transform-gpu m-2 h-full max-h-[90vh]">
                     <div className="pointer-events-auto relative flex h-full flex-col bg-background sm:w-[600px]">
-                      <ScrollArea className="flex-grow">
+                      <div className="overflow-y-auto overflow-x-hidden">
                         <img
                           src={project.img}
                           alt={project.label}
@@ -222,7 +222,7 @@ const ProjectSection = () => {
                           </div>
                         </div>
                         <MorphingDialogClose />
-                      </ScrollArea>
+                      </div>
 
                       {/* Button Section - Now sits outside the scrollable area */}
                       <div className="sticky bottom-0 left-0 w-full flex-shrink-0 p-4 grid grid-cols-2 gap-4 z-20">
