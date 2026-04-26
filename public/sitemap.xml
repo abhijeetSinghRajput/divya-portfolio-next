@@ -3,48 +3,48 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://divya16sachan.netlify.app</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://divyasachan.vercel.app</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <!-- About Page -->
   <url>
-    <loc>https://divya16sachan.netlify.app/#about</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://divyasachan.vercel.app/#about</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Projects Page -->
   <url>
-    <loc>https://divya16sachan.netlify.app/#projects</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://divyasachan.vercel.app/#projects</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <!-- Poetry Page -->
   <url>
-    <loc>https://divya16sachan.netlify.app/#poetry</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://divyasachan.vercel.app/#poetry</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Awards Page -->
   <url>
-    <loc>https://divya16sachan.netlify.app/#awards</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://divyasachan.vercel.app/#awards</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Contact Page -->
   <url>
-    <loc>https://divya16sachan.netlify.app/#contact</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://divyasachan.vercel.app/#contact</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

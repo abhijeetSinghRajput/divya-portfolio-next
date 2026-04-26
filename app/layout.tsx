@@ -38,17 +38,17 @@ export const metadata: Metadata = {
   authors: [{ name: "Divya Sachan" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://divya16sachan.netlify.app/",
+    canonical: "https://divyasachan.vercel.app/",
   },
   openGraph: {
     type: "website",
-    url: "https://divya16sachan.netlify.app/",
+    url: "https://divyasachan.vercel.app/",
     title: "Divya Sachan - Figma & Frontend Designer Portfolio",
     description:
       "Explore Divya Sachan's portfolio—a creative Figma & Frontend Designer crafting clean, modern interfaces and polished UI prototypes. Also a passionate poems writer.",
     images: [
       {
-        url: "https://divya16sachan.netlify.app/og-image.png",
+        url: "https://divyasachan.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Divya Sachan Portfolio",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Divya Sachan - Figma & Frontend Designer Portfolio",
     description:
       "Explore Divya Sachan's portfolio—a creative Figma & Frontend Designer crafting clean, modern interfaces and polished UI prototypes. Also a passionate poems writer.",
-    images: ["https://divya16sachan.netlify.app/og-image.png"],
+    images: ["https://divyasachan.vercel.app/og-image.png"],
     creator: "@IamDivyaSachan",
     site: "@IamDivyaSachan",
   },
@@ -86,12 +86,12 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://divya16sachan.netlify.app/#person",
+        "@id": "https://divyasachan.vercel.app/#person",
         "name": "Divya Sachan",
-        "url": "https://divya16sachan.netlify.app/",
+        "url": "https://divyasachan.vercel.app/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://divya16sachan.netlify.app/avatar3.png",
+          "url": "https://divyasachan.vercel.app/avatar3.png",
         },
         "sameAs": ["https://x.com/IamDivyaSachan"],
         "jobTitle": "Figma & Frontend Designer",
@@ -104,25 +104,25 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://divya16sachan.netlify.app/#website",
-        "url": "https://divya16sachan.netlify.app/",
+        "@id": "https://divyasachan.vercel.app/#website",
+        "url": "https://divyasachan.vercel.app/",
         "name": "Divya Sachan Portfolio",
         "description": "Portfolio of Divya Sachan - Figma & Frontend Designer",
         "publisher": {
-          "@id": "https://divya16sachan.netlify.app/#person",
+          "@id": "https://divyasachan.vercel.app/#person",
         },
         "inLanguage": "en-US",
       },
       {
         "@type": "WebPage",
-        "@id": "https://divya16sachan.netlify.app/#webpage",
-        "url": "https://divya16sachan.netlify.app/",
+        "@id": "https://divyasachan.vercel.app/#webpage",
+        "url": "https://divyasachan.vercel.app/",
         "name": "Divya Sachan - Figma & Frontend Designer Portfolio",
         "isPartOf": {
-          "@id": "https://divya16sachan.netlify.app/#website",
+          "@id": "https://divyasachan.vercel.app/#website",
         },
         "about": {
-          "@id": "https://divya16sachan.netlify.app/#person",
+          "@id": "https://divyasachan.vercel.app/#person",
         },
         "description":
           "Explore Divya Sachan's portfolio—a creative Figma & Frontend Designer crafting clean, modern interfaces and polished UI prototypes. Also a passionate poems writer.",

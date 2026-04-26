@@ -3,5 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://divya16sachan.netlify.app/sitemap.xml
-
+Sitemap: https://divyasachan.vercel.app/sitemap.xml
