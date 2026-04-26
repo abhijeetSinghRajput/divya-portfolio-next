@@ -211,8 +211,8 @@ const PoemSection = () => {
         <Accordion type="single" collapsible className="w-full">
           {poets.map((award, index) => (
             <AccordionItem key={award.id} value={`item-${index}`}>
-              <AccordionTrigger className="p-0 border-none hover:no-underline">
-                <div className="flex border-b w-full items-center hover:bg-accent/30 transition-all">
+              <AccordionTrigger className="p-0 border-none hover:no-underline hover:bg-accent/30 rounded-none">
+                <div className="flex border-b w-full items-center transition-all">
                   <Badge variant="icon" className="mx-4">
                     <FeatherIcon />
                   </Badge>

@@ -9,6 +9,7 @@ import LinkedinIcon from "@/components/icons/linkedin";
 import MailIcon from "@/components/icons/mail";
 import { Separator } from "@/components/ui/separator";
 import { AnimatedIconRef } from "@/components/icons/types";
+import Link from "next/link";
 
 interface LinkItem {
   label: string;
@@ -63,12 +64,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4">
           <div className="md:max-w-md">
             <div className="space-y-4">
-              <div className="flex gap-4 items-center">
+              <Link href="/" className="flex gap-4 items-center">
                 <div className="w-8 h-8 p-2 bg-primary rounded-lg overflow-hidden flex items-center justify-center">
                   <LogoIcon />
                 </div>
                 <h3 className="text-base font-semibold">Divya Sachan</h3>
-              </div>
+              </Link>
               <p className="text-sm text-muted-foreground max-w-md">
                 Creative developer and poet crafting digital experiences that
                 inspire and connect. Passionate about blending technology with

@@ -19,7 +19,7 @@ const badgeVariants = cva(
         outline: "text-foreground",
 
         icon: `
-          flex p-0 size-6 shrink-0 items-center justify-center rounded-lg 
+          flex p-0 size-6 shrink-0 items-center justify-center rounded-md 
           border border-muted-foreground/15 
           bg-muted 
           ring-1 ring-muted 
