@@ -23,7 +23,7 @@ export default function AnimatedIconButton({
     <Button
       size="icon"
       tooltip={tooltip}
-      variant={null as any}
+      variant="ghost"
       className={cn(
         "border-2 border-border bg-white/5 px-5 rounded-2xl h-12 w-12 transition-all",
         "hover:shadow-button hover:!bg-primary hover:!text-primary-foreground",

@@ -1,5 +1,5 @@
 "use client";
-import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { AnimatedIconProps, AnimatedIconRef } from "./types";

@@ -3,14 +3,14 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+import Image from "next/image";
+
 interface LayoutTextFlipProps {
-  words?: string[];
   duration?: number;
   className?: string;
 }
 
 export const LayoutTextFlip = ({
-  words = ["hello", "world"],
   duration = 3000,
   className,
 }: LayoutTextFlipProps) => {
@@ -40,10 +40,12 @@ export const LayoutTextFlip = ({
           className={cn("flex items-center gap-2 justify-center whitespace-nowrap", className)}
         >
           <div className="size-5">
-            <img
+            <Image
               className="w-full h-full object-contain"
               src={stacks[currentIndex].img}
               alt=""
+              width={20}
+              height={20}
             />
           </div>
           {stacks[currentIndex].text}

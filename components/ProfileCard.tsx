@@ -1,4 +1,4 @@
-import React, { useRef, useMemo, useState } from "react";
+import React, { useRef, useMemo } from "react";
 import { X } from "lucide-react";
 import {
   MorphingDialog,
@@ -16,6 +16,7 @@ import { Button } from "./ui/button";
 import CursorClickIcon from "@/components/icons/cursor-click";
 import ProgressiveBlur from "./ui/progressive-blur";
 import { AnimatedIconRef } from "./icons/types";
+import Image from "next/image";
 
 interface BadgeProps extends React.SVGProps<SVGSVGElement> {
   size?: number;
@@ -68,9 +69,11 @@ const ProfileCard = () => {
     mailIconRef.current?.stopAnimation();
   };
 
+  /*
   const handleGithubClick = () => {
     window.open("https://github.com/divya16sachan", "_blank");
   };
+  */
   
   const handleDownload = () => {
     // Create a temporary anchor element to trigger download
@@ -87,12 +90,13 @@ const ProfileCard = () => {
       <div className="relative w-[90vw] max-w-sm aspect-[0.65/1] rounded-3xl overflow-hidden shadow-2xl bg-zinc-900 will-change-transform">
         {/* Image - Optimized with GPU acceleration */}
         <div className="absolute inset-0 transform-gpu">
-          <img
-            src="./avatar3.png"
+          <Image
+            src="/avatar3.png"
             alt="divya"
             className="w-full h-full scale-125 object-contain"
-            loading="eager"
-            decoding="async"
+            width={400}
+            height={600}
+            priority
           />
         </div>
 
